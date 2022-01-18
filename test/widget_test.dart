@@ -38,7 +38,7 @@ void main() {
     //日本語フォントの読み込み
     await loadJapaneseFont();
     //デバイスの画面サイズ
-    final size = Size(415, 896);
+    final size = const Size(415, 896);
 
     //日本語のテスト
     await tester.pumpWidgetBuilder(myAppTest('ja'), surfaceSize: size);
